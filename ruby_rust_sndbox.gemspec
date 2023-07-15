@@ -11,11 +11,12 @@ Gem::Specification.new do |spec|
   spec.summary = "This is sandbox with ruby to rust and vise versa interaction"
   spec.description = "Snadbox for testing rust to ruby interactions"
   spec.homepage = "https://github.com/aleksgav/ruby_rust_sndbox"
-  spec.required_ruby_version = ">= 2.6.0"
+  spec.required_ruby_version = ">= 3.1.0"
   spec.required_rubygems_version = ">= 3.3.11"
 
   spec.metadata["allowed_push_host"] = ""
 
+  spec.metadata["rubygems_mfa_required"] = "true"
   spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["source_code_uri"] = "https://github.com/aleksgav/ruby_rust_sndbox"
   spec.metadata["changelog_uri"] = "https://github.com/aleksgav/ruby_rust_sndbox"
